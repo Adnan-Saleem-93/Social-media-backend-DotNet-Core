@@ -34,7 +34,7 @@ namespace SocialMediaBackend_ASPNETCore
 
 
             app.MapControllers();
-
+            app.UseDeveloperExceptionPage();
             app.Run();
         }
     }
